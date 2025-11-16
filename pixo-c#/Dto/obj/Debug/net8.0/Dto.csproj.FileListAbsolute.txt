@@ -1,0 +1,11 @@
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\Dto\bin\Debug\net8.0\Dto.deps.json
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\Dto\bin\Debug\net8.0\Dto.dll
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\Dto\bin\Debug\net8.0\Dto.pdb
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\Dto\obj\Debug\net8.0\Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\Dto\obj\Debug\net8.0\Dto.AssemblyInfoInputs.cache
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\Dto\obj\Debug\net8.0\Dto.AssemblyInfo.cs
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\Dto\obj\Debug\net8.0\Dto.csproj.CoreCompileInputs.cache
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\Dto\obj\Debug\net8.0\Dto.dll
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\Dto\obj\Debug\net8.0\refint\Dto.dll
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\Dto\obj\Debug\net8.0\Dto.pdb
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\Dto\obj\Debug\net8.0\ref\Dto.dll

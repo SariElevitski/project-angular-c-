@@ -1,0 +1,11 @@
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IDal\bin\Debug\net8.0\IDal.deps.json
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IDal\bin\Debug\net8.0\IDal.dll
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IDal\bin\Debug\net8.0\IDal.pdb
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IDal\obj\Debug\net8.0\IDal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IDal\obj\Debug\net8.0\IDal.AssemblyInfoInputs.cache
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IDal\obj\Debug\net8.0\IDal.AssemblyInfo.cs
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IDal\obj\Debug\net8.0\IDal.csproj.CoreCompileInputs.cache
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IDal\obj\Debug\net8.0\IDal.dll
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IDal\obj\Debug\net8.0\refint\IDal.dll
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IDal\obj\Debug\net8.0\IDal.pdb
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IDal\obj\Debug\net8.0\ref\IDal.dll

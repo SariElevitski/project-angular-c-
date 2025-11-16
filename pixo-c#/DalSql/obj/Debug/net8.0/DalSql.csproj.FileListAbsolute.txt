@@ -1,0 +1,17 @@
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\bin\Debug\net8.0\DalSql.deps.json
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\bin\Debug\net8.0\DalSql.dll
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\bin\Debug\net8.0\DalSql.pdb
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\bin\Debug\net8.0\IDal.dll
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\bin\Debug\net8.0\IDal.pdb
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\obj\Debug\net8.0\DalSql.csproj.AssemblyReference.cache
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\obj\Debug\net8.0\DalSql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\obj\Debug\net8.0\DalSql.AssemblyInfoInputs.cache
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\obj\Debug\net8.0\DalSql.AssemblyInfo.cs
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\obj\Debug\net8.0\DalSql.csproj.CoreCompileInputs.cache
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\obj\Debug\net8.0\DalSql.csproj.Up2Date
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\obj\Debug\net8.0\DalSql.dll
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\obj\Debug\net8.0\refint\DalSql.dll
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\obj\Debug\net8.0\DalSql.pdb
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\obj\Debug\net8.0\ref\DalSql.dll
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\bin\Debug\net8.0\DalSql.runtimeconfig.json
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\DalSql\obj\Debug\net8.0\DalSql.genruntimeconfig.cache

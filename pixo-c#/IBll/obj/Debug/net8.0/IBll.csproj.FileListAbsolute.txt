@@ -1,0 +1,11 @@
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IBll\bin\Debug\net8.0\IBll.deps.json
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IBll\bin\Debug\net8.0\IBll.dll
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IBll\bin\Debug\net8.0\IBll.pdb
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IBll\obj\Debug\net8.0\IBll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IBll\obj\Debug\net8.0\IBll.AssemblyInfoInputs.cache
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IBll\obj\Debug\net8.0\IBll.AssemblyInfo.cs
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IBll\obj\Debug\net8.0\IBll.csproj.CoreCompileInputs.cache
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IBll\obj\Debug\net8.0\IBll.dll
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IBll\obj\Debug\net8.0\refint\IBll.dll
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IBll\obj\Debug\net8.0\IBll.pdb
+C:\Users\sarie\OneDrive\שולחן העבודה\C#\pixo-c#\IBll\obj\Debug\net8.0\ref\IBll.dll

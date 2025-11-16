@@ -1,0 +1,165 @@
+/* ייבוא פונט Assistant לכתב יפה (אם תרצה) */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap');
+
+/* איפוס כללי */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3ece2;
+  font-family: 'Assistant', system-ui, sans-serif; 
+  direction: rtl; 
+}
+
+/* סרגל ניווט - רקע לבן וממלא 100% רוחב */
+.custom-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff; 
+  z-index: 999;
+}
+
+/* העטיפה הראשית - מיישר את השורות אנכית ובמרכז */
+.custom-wrapper {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  padding: 0 30px;
+}
+
+/* שורה עליונה: הלוגו */
+.logo-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 10px; 
+}
+
+/* עיצוב הלוגו  */
+.main-logo-text {
+    font-size: 2.2em; 
+    font-weight: 900; 
+    color: #c6e7d1; 
+    margin-bottom: 5px; 
+    text-shadow: -1px -1px 0 #000,  1px -1px 0 #000, -1px  1px 0 #000,  1px  1px 0 #000; 
+}
+
+/* שורה תחתונה: התפריט הראשי */
+.menu-row {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    padding-bottom: 15px; 
+    /* הקו החום התחתון */
+    border-bottom: 3px solid #7cc2b3a8; 
+}
+
+/* תפריט ראשי */
+.custom-nav-links {
+  display: flex;
+  list-style: none;
+  gap: 80px; 
+  padding: 0;
+  margin: 0;
+}
+
+/* לינק רגיל בתפריט */
+.custom-nav-links li a {
+  color: #000;
+  padding: 6.5px 90px; 
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1; 
+}
+
+
+.custom-nav-links li a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0; 
+  width: 100%; /* רוחב מלא תמיד */
+  height: 100%; /* גובה מלא תמיד */
+  
+  background-color: rgba(191, 243, 222, 0.533); 
+  
+ 
+  transform: scaleY(0); /* מתחיל בגובה 0 */
+  transform-origin: center center; /* נקודת המוצא של ההתפשטות היא המרכז */
+  transition: transform 0.6s ease-in-out; /* מעבר איטי על שינוי קנה המידה */
+  
+  
+  z-index: -1; 
+  border-radius: 0; 
+}
+
+/* כאשר עוברים עם העכבר */
+.custom-nav-links li a:hover::before {
+  transform: scaleY(1); /* הריבוע מתמלא לגובה מלא מהמרכז */
+}
+
+/* ביטול הקו הישן */
+.custom-nav-links li a::after {
+  content: none; 
+}
+
+/* תפריט נפתח - יש לשנות את הרקע והצבעים אם משתמשים בו */
+.custom-dropdown:hover .custom-drop-menu {
+  display: flex;
+}
+
+/* עיצוב תפריט נפתח */
+.custom-drop-menu {
+  text-align: right;
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #f0f0f0; 
+  flex-direction: column;
+  list-style: none;
+  min-width: 150px;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.custom-drop-menu li a {
+  padding: 8px 15px;
+  color: #333; 
+  text-decoration: none;
+  display: block;
+}
+
+
+.content-wrapper {
+  padding-top: 140px; /* דוחף את התוכן מתחת ל-nav */
+}
+.custom-drop-menu li a:hover {
+  background-color: #ddd; 
+}
+
+/* פוטר (אם רלוונטי) */
+.site-footer {
+  background-color: #d6bfa8;
+  color: #4a2f2f;
+  padding: 40px 20px 15px 20px;
+  font-size: 14px;
+  border-top: 2px solid #d1bfa5;
+}
+
+.footer-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; 
+}

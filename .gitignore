@@ -1,0 +1,29 @@
+# -------------------------
+# .NET / C#
+# -------------------------
+Server/bin/
+Server/obj/
+Server/.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+*.mdb
+*.log
+
+# NuGet
+Server/packages/
+*.nupkg
+
+# -------------------------
+# DB files (לא מעלים מסדי נתונים)
+# -------------------------
+*.mdf
+*.ldf
+*.bak
+
+# -------------------------
+# System files
+# -------------------------
+.DS_Store
+Thumbs.db

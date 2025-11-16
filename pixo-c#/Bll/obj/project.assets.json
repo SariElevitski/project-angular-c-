@@ -1,0 +1,140 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dto.dll": {}
+        }
+      },
+      "IBll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/IBll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IBll.dll": {}
+        }
+      },
+      "IDal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/IDal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IDal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dto/1.0.0": {
+      "type": "project",
+      "path": "../Dto/Dto.csproj",
+      "msbuildProject": "../Dto/Dto.csproj"
+    },
+    "IBll/1.0.0": {
+      "type": "project",
+      "path": "../IBll/IBll.csproj",
+      "msbuildProject": "../IBll/IBll.csproj"
+    },
+    "IDal/1.0.0": {
+      "type": "project",
+      "path": "../IDal/IDal.csproj",
+      "msbuildProject": "../IDal/IDal.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Dto >= 1.0.0",
+      "IBll >= 1.0.0",
+      "IDal >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sarie\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Bll\\Bll.csproj",
+      "projectName": "Bll",
+      "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Bll\\Bll.csproj",
+      "packagesPath": "C:\\Users\\sarie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Bll\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sarie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Dto\\Dto.csproj": {
+              "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Dto\\Dto.csproj"
+            },
+            "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IBll\\IBll.csproj": {
+              "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IBll\\IBll.csproj"
+            },
+            "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IDal\\IDal.csproj": {
+              "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IDal\\IDal.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
