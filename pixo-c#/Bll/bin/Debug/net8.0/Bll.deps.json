@@ -25,6 +25,9 @@
         }
       },
       "IBll/1.0.0": {
+        "dependencies": {
+          "Dto": "1.0.0"
+        },
         "runtime": {
           "IBll.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -33,6 +36,9 @@
         }
       },
       "IDal/1.0.0": {
+        "dependencies": {
+          "Dto": "1.0.0"
+        },
         "runtime": {
           "IDal.dll": {
             "assemblyVersion": "1.0.0.0",

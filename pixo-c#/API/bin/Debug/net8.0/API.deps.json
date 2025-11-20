@@ -12,6 +12,7 @@
           "DalSql": "1.0.0",
           "Dto": "1.0.0",
           "IBll": "1.0.0",
+          "IDal": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
@@ -561,6 +562,7 @@
       },
       "DalSql/1.0.0": {
         "dependencies": {
+          "Dto": "1.0.0",
           "IDal": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
         },
@@ -580,6 +582,9 @@
         }
       },
       "IBll/1.0.0": {
+        "dependencies": {
+          "Dto": "1.0.0"
+        },
         "runtime": {
           "IBll.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -588,6 +593,9 @@
         }
       },
       "IDal/1.0.0": {
+        "dependencies": {
+          "Dto": "1.0.0"
+        },
         "runtime": {
           "IDal.dll": {
             "assemblyVersion": "1.0.0.0",

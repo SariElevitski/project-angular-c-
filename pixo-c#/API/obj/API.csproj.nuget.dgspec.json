@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\API\\API.csproj": {}
+    "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\API\\API.csproj": {
+    "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\API\\API.csproj",
+        "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\API\\API.csproj",
         "packagesPath": "C:\\Users\\sarie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\API\\obj\\",
+        "outputPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,17 +32,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Bll\\Bll.csproj": {
-                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Bll\\Bll.csproj"
+              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Bll\\Bll.csproj": {
+                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Bll\\Bll.csproj"
               },
-              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\DalSql\\DalSql.csproj": {
-                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\DalSql\\DalSql.csproj"
+              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\DalSql\\DalSql.csproj": {
+                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\DalSql\\DalSql.csproj"
               },
-              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Dto\\Dto.csproj": {
-                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Dto\\Dto.csproj"
+              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\Dto.csproj": {
+                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\Dto.csproj"
               },
-              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IBll\\IBll.csproj": {
-                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IBll\\IBll.csproj"
+              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IBll\\IBll.csproj": {
+                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IBll\\IBll.csproj"
+              },
+              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IDal\\IDal.csproj": {
+                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IDal\\IDal.csproj"
               }
             }
           }
@@ -91,14 +94,14 @@
         }
       }
     },
-    "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Bll\\Bll.csproj": {
+    "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Bll\\Bll.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Bll\\Bll.csproj",
+        "projectUniqueName": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Bll\\Bll.csproj",
         "projectName": "Bll",
-        "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Bll\\Bll.csproj",
+        "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Bll\\Bll.csproj",
         "packagesPath": "C:\\Users\\sarie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Bll\\obj\\",
+        "outputPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Bll\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -119,14 +122,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Dto\\Dto.csproj": {
-                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Dto\\Dto.csproj"
+              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\Dto.csproj": {
+                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\Dto.csproj"
               },
-              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IBll\\IBll.csproj": {
-                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IBll\\IBll.csproj"
+              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IBll\\IBll.csproj": {
+                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IBll\\IBll.csproj"
               },
-              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IDal\\IDal.csproj": {
-                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IDal\\IDal.csproj"
+              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IDal\\IDal.csproj": {
+                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IDal\\IDal.csproj"
               }
             }
           }
@@ -166,14 +169,14 @@
         }
       }
     },
-    "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\DalSql\\DalSql.csproj": {
+    "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\DalSql\\DalSql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\DalSql\\DalSql.csproj",
+        "projectUniqueName": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\DalSql\\DalSql.csproj",
         "projectName": "DalSql",
-        "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\DalSql\\DalSql.csproj",
+        "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\DalSql\\DalSql.csproj",
         "packagesPath": "C:\\Users\\sarie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\DalSql\\obj\\",
+        "outputPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\DalSql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -194,11 +197,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Dto\\Dto.csproj": {
-                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Dto\\Dto.csproj"
+              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\Dto.csproj": {
+                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\Dto.csproj"
               },
-              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IDal\\IDal.csproj": {
-                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IDal\\IDal.csproj"
+              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IDal\\IDal.csproj": {
+                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IDal\\IDal.csproj"
               }
             }
           }
@@ -250,14 +253,14 @@
         }
       }
     },
-    "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Dto\\Dto.csproj": {
+    "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Dto\\Dto.csproj",
+        "projectUniqueName": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\Dto.csproj",
         "projectName": "Dto",
-        "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Dto\\Dto.csproj",
+        "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\Dto.csproj",
         "packagesPath": "C:\\Users\\sarie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Dto\\obj\\",
+        "outputPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -315,14 +318,14 @@
         }
       }
     },
-    "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IBll\\IBll.csproj": {
+    "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IBll\\IBll.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IBll\\IBll.csproj",
+        "projectUniqueName": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IBll\\IBll.csproj",
         "projectName": "IBll",
-        "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IBll\\IBll.csproj",
+        "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IBll\\IBll.csproj",
         "packagesPath": "C:\\Users\\sarie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IBll\\obj\\",
+        "outputPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IBll\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -342,7 +345,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\Dto.csproj": {
+                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\Dto.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -380,14 +387,14 @@
         }
       }
     },
-    "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IDal\\IDal.csproj": {
+    "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IDal\\IDal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IDal\\IDal.csproj",
+        "projectUniqueName": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IDal\\IDal.csproj",
         "projectName": "IDal",
-        "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IDal\\IDal.csproj",
+        "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IDal\\IDal.csproj",
         "packagesPath": "C:\\Users\\sarie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IDal\\obj\\",
+        "outputPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IDal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -407,7 +414,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\Dto.csproj": {
+                "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\Dto.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -3,23 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Dto;
 
 
 namespace IDal
 {
-    internal interface Iproduct
+    public interface Iproduct
     {
 
-        //void Add(Product product);
-        //Product GetById(int id);
-        //IEnumerable<Product> GetAll();
-        //void Update(Product product);
+        //void Add(productDto product);
+        //productDto GetById(int id);
+        IEnumerable<productDto> GetAllProducts();
+        //void Update(productDto product);
         //void Delete(int id);
 
-       
 
 
-    
+
+
     }
 
 

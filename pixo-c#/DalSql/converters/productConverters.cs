@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DalSql.convert
+namespace DalSql.converters
 {
-    internal class productConverters
+    public class productConverters
     {
         public static Dto.productDto ToDto(models.Product  p)
         {

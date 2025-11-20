@@ -1491,6 +1491,9 @@
       "IDal/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Dto": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/IDal.dll": {}
         },
@@ -4053,11 +4056,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\DalSql\\DalSql.csproj",
+      "projectUniqueName": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\DalSql\\DalSql.csproj",
       "projectName": "DalSql",
-      "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\DalSql\\DalSql.csproj",
+      "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\DalSql\\DalSql.csproj",
       "packagesPath": "C:\\Users\\sarie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\DalSql\\obj\\",
+      "outputPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\DalSql\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4078,11 +4081,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Dto\\Dto.csproj": {
-              "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\Dto\\Dto.csproj"
+            "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\Dto.csproj": {
+              "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\Dto\\Dto.csproj"
             },
-            "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IDal\\IDal.csproj": {
-              "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\C#\\pixo-c#\\IDal\\IDal.csproj"
+            "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IDal\\IDal.csproj": {
+              "projectPath": "C:\\Users\\sarie\\OneDrive\\שולחן העבודה\\angularAndCSharp\\pixo-c#\\IDal\\IDal.csproj"
             }
           }
         }
