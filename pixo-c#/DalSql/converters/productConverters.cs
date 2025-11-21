@@ -23,11 +23,11 @@ namespace DalSql.converters
 
              productD.CategoryName = p.Category != null ? p.Category.Name : "";
 
-            return productD;
+            //return productD;
 
             productD.SizeName = p.Size != null ? p.Size.SizeName : "";
 
-            return productD;
+            //return productD;
 
             productD.TypeName = p.Type != null ? p.Type.Name : "";
 

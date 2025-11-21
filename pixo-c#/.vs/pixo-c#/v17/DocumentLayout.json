@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dalsql\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|solutionrelative:dalsql\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dalsql\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|solutionrelative:dalsql\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1926A802-FA33-4087-BA43-7D3B568C9454}|Bll\\Bll.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\bll\\productbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1926A802-FA33-4087-BA43-7D3B568C9454}|Bll\\Bll.csproj|solutionrelative:bll\\productbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dalsql\\converters\\productconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|solutionrelative:dalsql\\converters\\productconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dalsql\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|solutionrelative:dalsql\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dalsql\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|solutionrelative:dalsql\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|solutionrelative:api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1926A802-FA33-4087-BA43-7D3B568C9454}|Bll\\Bll.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\bll\\productbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1926A802-FA33-4087-BA43-7D3B568C9454}|Bll\\Bll.csproj|solutionrelative:bll\\productbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,6 +51,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\API\\appsettings.Development.json",
+              "RelativeToolTip": "API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-21T08:44:46.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductDal.cs",
+              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\ProductDal.cs",
+              "RelativeDocumentMoniker": "DalSql\\ProductDal.cs",
+              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\ProductDal.cs",
+              "RelativeToolTip": "DalSql\\ProductDal.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T13:37:17.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "productConverters.cs",
+              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\converters\\productConverters.cs",
+              "RelativeDocumentMoniker": "DalSql\\converters\\productConverters.cs",
+              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\converters\\productConverters.cs",
+              "RelativeToolTip": "DalSql\\converters\\productConverters.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA3wB8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:03:41.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\API\\appsettings.json",
               "RelativeDocumentMoniker": "API\\appsettings.json",
@@ -59,33 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductDal.cs",
-              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\ProductDal.cs",
-              "RelativeDocumentMoniker": "DalSql\\ProductDal.cs",
-              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\ProductDal.cs",
-              "RelativeToolTip": "DalSql\\ProductDal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T13:37:17.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "productConverters.cs",
-              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\converters\\productConverters.cs",
-              "RelativeDocumentMoniker": "DalSql\\converters\\productConverters.cs",
-              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\converters\\productConverters.cs",
-              "RelativeToolTip": "DalSql\\converters\\productConverters.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIBAwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T14:03:41.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\models\\Product.cs",
               "RelativeDocumentMoniker": "DalSql\\models\\Product.cs",
@@ -93,38 +109,36 @@
               "RelativeToolTip": "DalSql\\models\\Product.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAgwB0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T13:53:03.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T13:53:03.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
               "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T13:26:55.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T13:26:55.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "productBll.cs",
               "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Bll\\productBll.cs",
               "RelativeDocumentMoniker": "Bll\\productBll.cs",
               "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Bll\\productBll.cs",
               "RelativeToolTip": "Bll\\productBll.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAIBAwA4AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T13:07:54.408Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "productController.cs",
               "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\API\\Controllers\\productController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\productController.cs",
@@ -132,8 +146,7 @@
               "RelativeToolTip": "API\\Controllers\\productController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T13:01:23.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T13:01:23.46Z"
             }
           ]
         }
