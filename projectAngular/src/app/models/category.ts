@@ -13,4 +13,3 @@ export class Category {
   }
 }
 
-const category = new Category(1, "Electronics");

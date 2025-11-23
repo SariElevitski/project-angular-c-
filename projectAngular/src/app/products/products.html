@@ -1,1 +1,47 @@
-<p>products works!</p>
+<input 
+  type="text" 
+  [(ngModel)]="searchTerm" 
+  (input)="onSearchChange()" 
+  placeholder="הקלד מונח לסינון..."
+  style="margin-bottom: 20px; padding: 8px; width: 300px;"
+>
+
+<hr>
+
+<div *ngIf="products$ | async as products; else loadingOrEmpty">
+  
+  <div *ngIf="products.length > 0; else noResults">
+    
+    <div *ngFor="let product of products" style="padding: 10px; border: 1px solid #ccc; margin-bottom: 15px;">
+      <p>
+        **שם המוצר:** {{ product.name }} 
+        <br>
+        **מחיר:** {{ product.price }} ₪
+        <br> 
+        **קטגוריה (ID):** {{ product.categoryId }}
+        <br>
+        
+        <img 
+          [src]="'http://localhost:5183/' + product.imageUrl" 
+          alt="{{ product.name }}"
+          style="max-width: 150px; height: auto; margin-top: 10px;"
+        />
+      </p>
+      <hr>
+    </div>
+
+  </div>
+
+  <ng-template #noResults>
+    <div style="color: darkred; font-weight: bold;">
+      <p>⚠️ לא נמצאו מוצרים התואמים למונח החיפוש: "{{ searchTerm }}"</p>
+    </div>
+  </ng-template>
+
+</div>
+
+<ng-template #loadingOrEmpty>
+  <div style="color: blue;">
+    <p>... טוען נתונים או ממתין לתוצאות סינון ראשוניות...</p>
+  </div>
+</ng-template>

@@ -22,4 +22,4 @@ export class Product {
 
 }
 
-const product = new Product(1, "Laptop", 1500.00, "http://example.com/laptop.jpg", 1,2,3);
+

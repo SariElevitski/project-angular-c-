@@ -1,26 +1,44 @@
 <nav class="custom-nav">
   <div class="custom-wrapper">
-    
     <div class="logo-row">
       <h1 class="main-logo-text">Pixo</h1>
     </div>
-    
+
     <div class="menu-row">
       <ul class="custom-nav-links">
-        <li> <a href="/home"  > home</a></li>
+        <li><a [routerLink]="['/home']"> home</a></li>
         <li class="custom-dropdown">
-            <a href="/shopping"> shopping</a> 
-            <ul class="custom-drop-menu">
-                <li><a href="/shopping">לבוש ואופנה</a></li>
-                <li><a href="/shopping">גאדג׳טים ומתנות</a></li>
-                <li><a href="/shopping">לבית</a></li>
-            </ul>
+          <a [routerLink]="['/shopping']" [queryParams]="{ categoryId: '0' }">
+            shopping</a
+          >
+          <ul class="custom-drop-menu">
+            <li>
+              <a
+                [routerLink]="['/shopping']"
+                [queryParams]="{ categoryId: '1' }"
+                >לבוש ואופנה</a
+              >
+            </li>
+            <li>
+              <a
+                [routerLink]="['/shopping']"
+                [queryParams]="{ categoryId: '2' }"
+                >גאדג׳טים ומתנות</a
+              >
+            </li>
+            <li>
+              <a
+                [routerLink]="['/shopping']"
+                [queryParams]="{ categoryId: '3' }"
+                >לבית</a
+              >
+            </li>
+          </ul>
         </li>
         <li><a href="/cart">cart</a></li>
-        <li> <a href="/about">about</a></li>
-        </ul>
+        <li><a href="/about">about</a></li>
+      </ul>
     </div>
-    
   </div>
 </nav>
 
