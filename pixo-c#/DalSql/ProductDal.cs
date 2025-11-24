@@ -18,10 +18,10 @@ namespace DalSql
             pixoDB = db;
         }
 
-           public IEnumerable<Dto.productDto> GetAllProducts()
+           public async Task<IEnumerable<productDto>> GetAllProducts()
         {
             var productList = pixoDB.Products.Include(p => p.Category).Include(p => p.Type).Include(p => p.Size).ToList();
-            return converters.productConverters.ToDtoList(productList);
+            return await converters.productConverters.ToDtoList(productList);
         }
     }
 }

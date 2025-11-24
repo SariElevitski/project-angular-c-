@@ -119,6 +119,8 @@ VALUES
 
 
 
+
+
 -- 🎨 Customizations
 INSERT INTO Customizations (ProductId, TextToPrint, ColorText, FontName, SizeText)
 VALUES
@@ -141,3 +143,10 @@ VALUES
 (1, 3, 2, 1, 39.90),
 (2, 2, NULL, 1, 69.90),
 (2, 4, NULL, 1, 49.90);
+
+select * from Products
+
+UPDATE Products
+SET ImageUrl = '/images/shirt1.jpg'
+WHERE Id = 1;
+

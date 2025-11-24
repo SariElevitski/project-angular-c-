@@ -1,0 +1,4 @@
+wwwroot\images\cup1.jpg
+wwwroot\images\cup2.jpg
+wwwroot\images\shirt1.jpg
+wwwroot\images\shirt2.jpg

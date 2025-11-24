@@ -9,6 +9,6 @@ namespace IBll
     public interface IproductBll
     {
 
-        IEnumerable<Dto.productDto> GetAllProducts();
+        Task<IEnumerable<Dto.productDto>> GetAllProducts();
     }
 }

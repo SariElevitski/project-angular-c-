@@ -30,6 +30,10 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("MyComputer")));
 
 var app = builder.Build();
 
+app.UseStaticFiles();
+
+
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -39,6 +43,7 @@ if (app.Environment.IsDevelopment())
 
 //קביעת ההרשאות
 app.UseCors("AllowAll");
+
 
 app.UseHttpsRedirection();
 

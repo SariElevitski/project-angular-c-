@@ -12,9 +12,9 @@ namespace Bll
             productD = p;
         }
 
-        public IEnumerable<productDto> GetAllProducts()
+        public async Task<IEnumerable<productDto>> GetAllProducts()
         {
-            return productD.GetAllProducts();
+            return await productD.GetAllProducts();
         }
 
     }

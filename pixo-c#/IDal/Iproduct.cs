@@ -9,18 +9,8 @@ using Dto;
 namespace IDal
 {
     public interface Iproduct
-    {
-
-        //void Add(productDto product);
-        //productDto GetById(int id);
-        IEnumerable<productDto> GetAllProducts();
-        //void Update(productDto product);
-        //void Delete(int id);
-
-
-
-
-
+    {   
+        Task<IEnumerable<productDto>> GetAllProducts();
     }
 
 

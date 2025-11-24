@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DalSql")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d316a677298372daec6e2df5792ba483b7af351")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7d845ca7cef2cb01248d99f97e16afd19e67929")]
 [assembly: System.Reflection.AssemblyProductAttribute("DalSql")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DalSql")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

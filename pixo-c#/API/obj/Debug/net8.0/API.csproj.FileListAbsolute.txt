@@ -165,3 +165,4 @@ C:\Users\sarie\OneDrive\שולחן העבודה\angularAndCSharp\pixo-c#\API\obj
 C:\Users\sarie\OneDrive\שולחן העבודה\angularAndCSharp\pixo-c#\API\obj\Debug\net8.0\API.pdb
 C:\Users\sarie\OneDrive\שולחן העבודה\angularAndCSharp\pixo-c#\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\sarie\OneDrive\שולחן העבודה\angularAndCSharp\pixo-c#\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\sarie\OneDrive\שולחן העבודה\angularAndCSharp\pixo-c#\API\bin\Debug\net8.0\API.staticwebassets.runtime.json
