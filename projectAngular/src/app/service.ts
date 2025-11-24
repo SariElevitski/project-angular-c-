@@ -6,14 +6,17 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root',
 })
+
 export class Service {
   private apiUrl = 'http://localhost:5183/api/product';
 
   constructor(private http: HttpClient) {}
 
   getProducts(
-    searchTerm: string,
-    categoryId: string | null
+    searchTerm: string | null,
+    categoryId: string | null,
+    minPrice: number | null,
+    maxPrice: number | null
   ): Observable<Product[]> {
     let params = new HttpParams();
 
@@ -23,6 +26,16 @@ export class Service {
 
     if (categoryId && categoryId !== '0') {
       params = params.set('categoryId', categoryId);
+    }
+
+    if (minPrice !== null && minPrice>= 0) {
+        // המרה למחרוזת לצורך שליחה ב-Query Param
+        params = params.set('minPrice', minPrice.toString());
+    }
+
+    if (maxPrice !== null && maxPrice >= 0) {
+        // המרה למחרוזת לצורך שליחה ב-Query Param
+        params = params.set('maxPrice', maxPrice.toString());
     }
 
     return this.http.get<Product[]>(this.apiUrl, { params: params });

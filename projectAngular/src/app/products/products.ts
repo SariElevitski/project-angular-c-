@@ -17,7 +17,7 @@ import { ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'app-products',
-  standalone: true, // הנחה שאתה משתמש ב-standalone
+  // standalone: true, // הנחה שאתה משתמש ב-standalone
   imports: [CommonModule, FormsModule],
   templateUrl: './products.html',
   styleUrl: './products.css',
@@ -27,6 +27,12 @@ export class Products implements OnInit {
   searchTerm: string = '';
   private searchTerms = new Subject<string>(); //זרם המוצרים הסופי
   products$!: Observable<Product[]>;
+
+  // סינון מחיר
+  minPrice: number | null = null;
+  maxPrice: number | null = null;
+  private priceTerms = new Subject<{min: number | null, max:number | null}>
+
 
   //הזרקת שירותים ROUTE
   constructor(private productService: Service, private route: ActivatedRoute) {}
@@ -48,20 +54,43 @@ export class Products implements OnInit {
         } // אם ID חוקי (לדוגמה '1', '2'), החזר אותו כמחרוזת
         return String(id);
       })
-    ); // 🤝 3. שילוב שני הזרמים לקריאת שרת אחת
+    ); 
+    
+    //זרם המחיר
+    const priceFlow$ = this.priceTerms.pipe(
+        // מתחיל עם ערכי ברירת המחדל (null, null)
+        startWith({ min: this.minPrice, max: this.maxPrice }),
+        debounceTime(300), // זמן המתנה לפני שליחת הבקשה
+        // מונע שליחת בקשה אם הטווח לא השתנה מהותית
+        distinctUntilChanged((prev, curr) => prev.min === curr.min && prev.max === curr.max)
+    );
 
-    this.products$ = combineLatest([searchFlow$, categoryIdFlow$]).pipe(
+    //  שילוב הזרמים לקריאת שרת אחת
+
+    this.products$ = combineLatest([
+      searchFlow$, 
+      categoryIdFlow$,
+      priceFlow$
+    ]).pipe(
       // מפעיל קריאת שרת בכל פעם שאחד הערכים משתנה
-      switchMap(([term, categoryId]) =>
-        this.productService.getProducts(term, categoryId)
+      switchMap(([term, categoryId, price]) =>
+        this.productService.getProducts(term, categoryId, price.min, price.max)
       )
     );
   }
-  /*
-   * מופעל כאשר יש שינוי בקלט של תיבת החיפוש.
-   */
-
+  
+  
+ // מופעל כאשר יש שינוי בקלט של תיבת החיפוש.
   onSearchChange(): void {
     this.searchTerms.next(this.searchTerm.trim());
   }
+
+  //מופעל כאשר יש שינוי באחד משדות המחיר
+  onPriceChange(): void {
+    // נרמול הערכים: המרה למספר, ושליחת null אם השדה ריק או אפס (לצורך סינון אופציונלי)
+    const min = this.minPrice ? Number(this.minPrice) : null;
+    const max = this.maxPrice ? Number(this.maxPrice) : null;
+    
+    this.priceTerms.next({ min: min, max: max });
+  }
 }

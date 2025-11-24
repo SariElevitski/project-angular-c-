@@ -5,9 +5,9 @@ export class Product {
   name: string;              // שם המוצר
   price: number;             // מחיר המוצר
   imageUrl: string;          // כתובת ה-URL של התמונה
-  categoryId: number;  
-  sizeId: number;     // מזהה הקטגוריה
-  typeId: number;
+  categoryId: number;        // מזהה הקטגוריה
+  sizeId: number;     
+  typeId: number;     //תת קטגוריה
 
   constructor(id: number,name: string,price: number,imageUrl: string,categoryId: number,sizeId: number,typeId:number
 ) {

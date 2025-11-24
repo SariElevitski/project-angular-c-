@@ -15,22 +15,29 @@
             <li>
               <a
                 [routerLink]="['/shopping']"
+                [queryParams]="{ categoryId: '0' }"
+                >all products</a
+              >
+            </li>
+            <li>
+              <a
+                [routerLink]="['/shopping']"
                 [queryParams]="{ categoryId: '1' }"
-                >לבוש ואופנה</a
+                >Clothing and fashion</a
               >
             </li>
             <li>
               <a
                 [routerLink]="['/shopping']"
                 [queryParams]="{ categoryId: '2' }"
-                >גאדג׳טים ומתנות</a
+                >Gadgets and gifts</a
               >
             </li>
             <li>
               <a
                 [routerLink]="['/shopping']"
                 [queryParams]="{ categoryId: '3' }"
-                >לבית</a
+                >for home</a
               >
             </li>
           </ul>
