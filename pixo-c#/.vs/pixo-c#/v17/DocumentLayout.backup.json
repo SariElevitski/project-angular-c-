@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dalsql\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|solutionrelative:dalsql\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|solutionrelative:api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB19BEC-0F99-4B20-8EBD-55E0AA4597E5}|Dto\\Dto.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dto\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB19BEC-0F99-4B20-8EBD-55E0AA4597E5}|Dto\\Dto.csproj|solutionrelative:dto\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{731BC84F-B255-4BE6-978E-E80B2AEA2BF6}|IDal\\IDal.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\idal\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{731BC84F-B255-4BE6-978E-E80B2AEA2BF6}|IDal\\IDal.csproj|solutionrelative:idal\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{760F9487-77CF-4026-9D7D-16760589752D}|IBll\\IBll.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\ibll\\iproductbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{760F9487-77CF-4026-9D7D-16760589752D}|IBll\\IBll.csproj|solutionrelative:ibll\\iproductbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAB19BEC-0F99-4B20-8EBD-55E0AA4597E5}|Dto\\Dto.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAB19BEC-0F99-4B20-8EBD-55E0AA4597E5}|Dto\\Dto.csproj|solutionrelative:dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dalsql\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|solutionrelative:dalsql\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1926A802-FA33-4087-BA43-7D3B568C9454}|Bll\\Bll.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\bll\\productbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1926A802-FA33-4087-BA43-7D3B568C9454}|Bll\\Bll.csproj|solutionrelative:bll\\productbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{760F9487-77CF-4026-9D7D-16760589752D}|IBll\\IBll.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\ibll\\iproductbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{760F9487-77CF-4026-9D7D-16760589752D}|IBll\\IBll.csproj|solutionrelative:ibll\\iproductbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dalsql\\converters\\productconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|solutionrelative:dalsql\\converters\\productconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dalsql\\converters\\categoryconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|solutionrelative:dalsql\\converters\\categoryconverters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAB19BEC-0F99-4B20-8EBD-55E0AA4597E5}|Dto\\Dto.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB19BEC-0F99-4B20-8EBD-55E0AA4597E5}|Dto\\Dto.csproj|solutionrelative:dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{760F9487-77CF-4026-9D7D-16760589752D}|IBll\\IBll.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\ibll\\icategorybll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{731BC84F-B255-4BE6-978E-E80B2AEA2BF6}|IDal\\IDal.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\idal\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{731BC84F-B255-4BE6-978E-E80B2AEA2BF6}|IDal\\IDal.csproj|solutionrelative:idal\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAB19BEC-0F99-4B20-8EBD-55E0AA4597E5}|Dto\\Dto.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAB19BEC-0F99-4B20-8EBD-55E0AA4597E5}|Dto\\Dto.csproj|solutionrelative:dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,11 +50,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Dto\\ProductCreateDto.cs",
+              "RelativeDocumentMoniker": "Dto\\ProductCreateDto.cs",
+              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Dto\\ProductCreateDto.cs",
+              "RelativeToolTip": "Dto\\ProductCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T18:50:30.4Z"
             },
             {
               "$type": "Document",
@@ -68,58 +76,83 @@
               "RelativeDocumentMoniker": "DalSql\\converters\\productConverters.cs",
               "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\converters\\productConverters.cs",
               "RelativeToolTip": "DalSql\\converters\\productConverters.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAYwB0AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswD4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T20:23:07.241Z"
+              "WhenOpened": "2025-11-25T18:10:22.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "IproductBll.cs",
+              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\IBll\\IproductBll.cs",
+              "RelativeDocumentMoniker": "IBll\\IproductBll.cs",
+              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\IBll\\IproductBll.cs",
+              "RelativeToolTip": "IBll\\IproductBll.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T20:32:13.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Iproduct.cs",
+              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\IDal\\Iproduct.cs",
+              "RelativeDocumentMoniker": "IDal\\Iproduct.cs",
+              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\IDal\\Iproduct.cs",
+              "RelativeToolTip": "IDal\\Iproduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T20:27:37.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "productController.cs",
               "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\API\\Controllers\\productController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\productController.cs",
               "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\API\\Controllers\\productController.cs",
               "RelativeToolTip": "API\\Controllers\\productController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAxwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T16:09:40.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "productBll.cs",
-              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Bll\\productBll.cs",
-              "RelativeDocumentMoniker": "Bll\\productBll.cs",
-              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Bll\\productBll.cs",
-              "RelativeToolTip": "Bll\\productBll.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T20:36:51.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "productDto.cs",
-              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Dto\\productDto.cs",
-              "RelativeDocumentMoniker": "Dto\\productDto.cs",
-              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Dto\\productDto.cs",
-              "RelativeToolTip": "Dto\\productDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T16:56:03.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ProductDal.cs",
               "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\ProductDal.cs",
               "RelativeDocumentMoniker": "DalSql\\ProductDal.cs",
               "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\ProductDal.cs",
               "RelativeToolTip": "DalSql\\ProductDal.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwBEAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T16:34:12.956Z"
+              "WhenOpened": "2025-11-23T16:34:12.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "productBll.cs",
+              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Bll\\productBll.cs",
+              "RelativeDocumentMoniker": "Bll\\productBll.cs",
+              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Bll\\productBll.cs",
+              "RelativeToolTip": "Bll\\productBll.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAywBsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T20:36:51.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "productDto.cs",
+              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Dto\\productDto.cs",
+              "RelativeDocumentMoniker": "Dto\\productDto.cs",
+              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Dto\\productDto.cs",
+              "RelativeToolTip": "Dto\\productDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T16:56:03.324Z"
             },
             {
               "$type": "Document",
@@ -135,30 +168,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IproductBll.cs",
-              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\IBll\\IproductBll.cs",
-              "RelativeDocumentMoniker": "IBll\\IproductBll.cs",
-              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\IBll\\IproductBll.cs",
-              "RelativeToolTip": "IBll\\IproductBll.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T20:32:13.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Iproduct.cs",
-              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\IDal\\Iproduct.cs",
-              "RelativeDocumentMoniker": "IDal\\Iproduct.cs",
-              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\IDal\\Iproduct.cs",
-              "RelativeToolTip": "IDal\\Iproduct.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T20:27:37.937Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Icategory.cs",
               "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\IDal\\Icategory.cs",
@@ -168,30 +177,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-22T20:27:34.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoryConverters.cs",
-              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\converters\\CategoryConverters.cs",
-              "RelativeDocumentMoniker": "DalSql\\converters\\CategoryConverters.cs",
-              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\converters\\CategoryConverters.cs",
-              "RelativeToolTip": "DalSql\\converters\\CategoryConverters.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T20:23:00.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Dto\\CategoryDto.cs",
-              "RelativeDocumentMoniker": "Dto\\CategoryDto.cs",
-              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Dto\\CategoryDto.cs",
-              "RelativeToolTip": "Dto\\CategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T20:12:41.532Z"
             }
           ]
         }

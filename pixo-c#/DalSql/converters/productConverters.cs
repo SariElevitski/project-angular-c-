@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Dto;
 
+
+
 namespace DalSql.converters
 {
     public class productConverters
@@ -27,15 +29,35 @@ namespace DalSql.converters
 
         }
 
-        public static  Task<List<productDto>> ToDtoList(List<models.Product> lp)
+        public static  List<productDto> ToDtoList(List<models.Product> lp)
         {
             List<productDto> lpnew = new List<productDto>();
             foreach (var item in lp)
             {
                 lpnew.Add(ToDto(item));
             }
-            return Task.FromResult(lpnew);
+            return lpnew;
         }
+
+        public static models.Product FromCreateDto(ProductCreateDto dto)
+        {
+            return new models.Product
+            {
+                Name = dto.Name,
+                Price = dto.Price,
+                ImageUrl = dto.ImageUrl,
+                CategoryId = dto.CategoryId,
+                SizeId = dto.SizeId,
+                TypeId = dto.TypeId
+            };
+        }
+
+
+        public static List<models.Product> FromCreateDtoList(List<ProductCreateDto> ldto)
+        {
+            return ldto.Select(FromCreateDto).ToList();
+        }
+
 
 
     }

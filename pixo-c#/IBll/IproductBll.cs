@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dto;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,10 @@ namespace IBll
     public interface IproductBll
     {
 
-        Task<IEnumerable<Dto.productDto>> GetAllProducts();
+        Task<IEnumerable<Dto.productDto>> GetProducts(string? search, int? categoryId, decimal? minPrice, decimal? maxPrice);
+
+        Task<IEnumerable<productDto>> AddProducts(List<ProductCreateDto> dto);
+
+        Task<productDto?> GetById(int id);
     }
 }

@@ -1,4 +1,5 @@
-﻿using DalSql.models;
+﻿using DalSql;
+using DalSql.models;
 using Dto;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -12,7 +13,7 @@ namespace API.Controllers
     public class productController : ControllerBase
     {
 
-        private readonly IBll.IproductBll  productB;
+        private readonly IBll.IproductBll productB;
         //נאתחל אותו בבנאי שמקבל מופע שלו בהזרקה
         public productController(IBll.IproductBll p)
         {
@@ -26,46 +27,34 @@ namespace API.Controllers
             [FromQuery] decimal? minPrice,
             [FromQuery] decimal? maxPrice)
         {
-            var products = await productB.GetAllProducts();
-            var query = products.AsQueryable();
-            //סינון לפי מונח חיפוש
-            if (!string.IsNullOrEmpty(search))
-            {
-                var lowerSearch = search.ToLower();
-                query = query.Where(p =>
-                    p.Name.ToLower().Contains(lowerSearch)
-                );
-            }
-            //סינון לפי מזהה קטגוריה
-            if (categoryId.HasValue && categoryId.Value > 0)
-            {
-                // הניחו שיש למוצר שדה CategoryId מסוג int
-                query = query.Where(p => p.CategoryId == categoryId.Value);
-            }
-            //סינון לפי מחיר מינימלי
-            if (minPrice.HasValue && minPrice.Value >= 0)
-            {
-                query = query.Where(p => p.Price >= minPrice.Value);
-            }
+
+            var products = await productB.GetProducts(search, categoryId, minPrice, maxPrice);
+
+            // 2. עוטפים את התוצאה ב-Ok() ומחזירים ללקוח
+            return Ok(products);
+
+        }
+
+        [HttpPost("list")]
+        public async Task<ActionResult<IEnumerable<productDto>>> AddProducts([FromBody] List<ProductCreateDto> list)
+        {
+            return Ok(await productB.AddProducts(list));
+        }
 
 
-            // סינון לפי מחיר מקסימלי
-            if (maxPrice.HasValue && maxPrice.Value >= 0)
-            {
-                // סינון מוצרים שקטנים או שווים למחיר המקסימלי
-                query = query.Where(p => p.Price <= maxPrice.Value);
-            }
+        //ID מוצר לפי 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<productDto>> GetProductById(int id)
+        {
+            var product = await productB.GetById(id);
+            if (product == null)
+                return NotFound();
 
-            return Ok(query.ToList());
-
-            
+            return Ok(product);
         }
     }
 
-    // את כל זה צריך להעביר לDAL לבדוק מה אפרת אמרה  ⬆️⬆️⬆️⬆️⬆️
 
 
-
-    //   להוסיף פה פונקציה של עדכון  כדי להוסיף נתונים לטבלה - מוצרים POST
-    //בGET לפי השכבות כמו שעשינו 
 }
+

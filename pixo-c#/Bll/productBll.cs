@@ -12,10 +12,25 @@ namespace Bll
             productD = p;
         }
 
-        public async Task<IEnumerable<productDto>> GetAllProducts()
+        public async Task<IEnumerable<productDto>> GetProducts(string? search, int? categoryId, decimal? minPrice, decimal? maxPrice)
         {
-            return await productD.GetAllProducts();
+            return await productD.GetProducts(search,categoryId,minPrice,maxPrice);
         }
+
+        public async Task<IEnumerable<productDto>> AddProducts(List<ProductCreateDto> dto)
+        {
+            return await productD.AddProducts(dto);   
+        }
+
+
+        public async Task<productDto?> GetById(int id)
+        {
+            return await productD.GetById(id);
+        }
+
+
+
+
 
     }
 }

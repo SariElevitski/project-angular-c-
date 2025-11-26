@@ -1,0 +1,202 @@
+/* 🎨 סרגל סינונים */
+.filters-container {
+  display: flex;
+  gap: 15px;
+  align-items: flex-end;
+  padding: 20px;
+  background: linear-gradient(135deg, #a5b2eb48 0%, #baa0d35b 100%);
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  flex-wrap: wrap;
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.filter-item label {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* תיבת חיפוש */
+.search-box,
+.price-input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 200px;
+  transition: all 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-box:focus,
+.price-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+/* כפתור ניקוי */
+.clear-btn {
+  padding: 10px 20px;
+  background-color: #b2c0ec;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.clear-btn:hover {
+  background-color: #b3c0ed;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.clear-btn:active {
+  transform: translateY(0);
+}
+
+/* מפריד */
+.divider {
+  border: none;
+  border-top: 2px solid #e1e1e1;
+  margin: 30px 0;
+}
+
+/* 📦 רשת מוצרים - 3 בשורה */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 20px 0;
+}
+
+/* רספונסיבי - 2 בשורה בטאבלט */
+@media (max-width: 1024px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* רספונסיבי - 1 בשורה במובייל */
+@media (max-width: 768px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .filters-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .search-box,
+  .price-input {
+    width: 100%;
+  }
+}
+
+/* כרטיס מוצר */
+.product-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+/* מיכל תמונה - 👇 עם השינויים */
+.image-container {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.08);
+}
+
+/* פרטי מוצר מתחת לתמונה */
+.product-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 10px 0;
+  line-height: 1.4;
+  min-height: 48px;
+}
+
+.product-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #515452;
+  margin: 10px 0;
+}
+
+.product-category {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin: 5px 0 0 0;
+}
+
+/* הודעות מערכת */
+.no-results {
+  text-align: center;
+  padding: 40px;
+  background: #d6cdff;
+  border: 2px dashed #b986f3a7;
+  /* border-radius: 12px; */
+  color: #563392;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.loading-msg {
+  text-align: center;
+  padding: 40px;
+  color: #667eea;
+  font-size: 18px;
+  font-weight: bold;
+}
