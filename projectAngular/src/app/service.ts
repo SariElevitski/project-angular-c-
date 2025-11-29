@@ -1,14 +1,24 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpParams } from '@angular/common/http';
+import { HttpClient, HttpParams, HttpErrorResponse } from '@angular/common/http';
 import { Product } from './models/product';
-import { Observable } from 'rxjs';
-import { tap } from 'rxjs/operators';
+import { Observable,throwError, of} from 'rxjs';
+import { catchError, map } from 'rxjs/operators';
+
+export interface CustomerDto {
+  id?: number;
+  fullName: string;
+  email: string;
+  birthday?: string; // ISO string or yyyy-MM-dd
+  phone?: string;
+  password?: string;
+}
 
 @Injectable({
   providedIn: 'root',
 })
 export class Service {
-  private apiUrl = 'http://localhost:5183/api/product';
+  private apiUrlProduct = 'http://localhost:5183/api/product';
+  private apiUrlCustomer = 'http://localhost:5183/api/customers';
 
   constructor(private http: HttpClient) {}
 
@@ -38,13 +48,39 @@ export class Service {
       params = params.set('maxPrice', maxPrice.toString());
     }
 
-    return this.http.get<Product[]>(this.apiUrl, { params: params });
+    return this.http.get<Product[]>(this.apiUrlProduct, { params: params });
   }
 
   getProductById(id: number): Observable<Product> {
-    const url = `${this.apiUrl}/${id}`;
+    const url = `${this.apiUrlProduct}/${id}`;
     return this.http
       .get<Product>(url)
       // .pipe(tap((data) => console.log('📦 Data from server:', data)));
   }
+
+   signup(dto: CustomerDto): Observable<CustomerDto> {
+    return this.http.post<CustomerDto>(`${this.apiUrlCustomer}/signup`, dto)
+      .pipe(catchError(this.handleError));
+   }
+
+   emailExists(email: string): Observable<boolean> {
+    const params = new HttpParams().set('email', email);
+    return this.http.get<{ exists: boolean }>(`${this.apiUrlCustomer}/exists`, { params })
+      .pipe(
+        map(res => !!res && !!res.exists),
+        catchError(() => of(false))
+      );
+  }
+
+  getById(id: number): Observable<CustomerDto> {
+    return this.http.get<CustomerDto>(`${this.apiUrlCustomer}/${id}`)
+      .pipe(catchError(this.handleError));
+  }
+
+  private handleError(error: HttpErrorResponse) {
+    const msg = error.error && error.error.message ? error.error.message : error.statusText || 'Server error';
+    return throwError(() => new Error(msg));
+  }
+
+  
 }

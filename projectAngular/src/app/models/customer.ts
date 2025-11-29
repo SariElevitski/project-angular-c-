@@ -23,5 +23,3 @@ export class Customer {
 
 
 
-const customer = new Customer(1, "John Doe", "john.doe@example.com", new Date("1990-01-01"), "+123456789");
-

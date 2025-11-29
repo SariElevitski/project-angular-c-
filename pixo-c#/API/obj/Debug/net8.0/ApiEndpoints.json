@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "API.Controllers.CustomerController",
+    "Method": "Register",
+    "RelativePath": "api/Customer/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Dto.CustomerCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API.Controllers.productController",
     "Method": "Get",
     "RelativePath": "api/product",

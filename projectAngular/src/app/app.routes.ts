@@ -2,7 +2,7 @@ import { Routes } from '@angular/router';
 import { Home } from './home/home';
 import { Products } from './products/products';
 import { Cart } from './cart/cart';
-import { About } from './about/about';
+import { Signup } from './signup/signup';
 import { ProductDetails } from './product-details/product-details';
 
 export const routes: Routes = [
@@ -11,6 +11,6 @@ export const routes: Routes = [
   {path: 'shopping',component: Products,// 👈 הוספת המאפיין הזה
  runGuardsAndResolvers: 'always' } ,
   { path: 'cart', component: Cart },
-  { path: 'about', component: About },
+  { path: 'signup', component: Signup },
   { path: 'product/:id', component: ProductDetails}
 ];

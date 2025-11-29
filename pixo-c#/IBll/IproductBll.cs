@@ -10,7 +10,7 @@ namespace IBll
     public interface IproductBll
     {
 
-        Task<IEnumerable<Dto.productDto>> GetProducts(string? search, int? categoryId, decimal? minPrice, decimal? maxPrice);
+        Task<IEnumerable<productDto>> GetProducts(string? search, int? categoryId, decimal? minPrice, decimal? maxPrice);
 
         Task<IEnumerable<productDto>> AddProducts(List<ProductCreateDto> dto);
 

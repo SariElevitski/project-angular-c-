@@ -78,9 +78,7 @@ namespace DalSql
 
 
 
-        //post
-
-
+        //post הוספת מוצר
         public async Task<IEnumerable<productDto>> AddProducts(List<ProductCreateDto> dtoList)
         {
             var models = productConverters.FromCreateDtoList(dtoList);
@@ -91,7 +89,7 @@ namespace DalSql
             return productConverters.ToDtoList(models);
         }
 
-        public async Task<productDto> GetById(int id)
+        public async Task<productDto?> GetById(int id)
         {
 
             var product = await pixoDB.Products.FirstOrDefaultAsync(p => p.Id == id); // תנאי לפי id

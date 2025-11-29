@@ -1,12 +1,17 @@
-﻿using System;
+﻿using Dto;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace IDal
 {
-    internal interface Icustomer
+    public interface Icustomer
     {
+
+        Task<CustomerDto> AddUser(CustomerCreateDto dto);
+
     }
 }
