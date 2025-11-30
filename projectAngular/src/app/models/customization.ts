@@ -23,4 +23,3 @@ export class Customization {
   }
 }
 
-const customization = new Customization(1, 101, "Hello World", "Red", "Arial", 12);

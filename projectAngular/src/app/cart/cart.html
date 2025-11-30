@@ -8,23 +8,68 @@
   <img [src]="'http://localhost:5183/images/' +item.imageUrl" width="80">
   <span>{{ item.name }}</span>
   <span>{{ item.price }} ₪</span>
-</div>
+<div *ngIf="item.customization" class="custom-details">
+            <p>כיתוב: 
+                <span [style.color]="item.customization.colorText">
+                    <b>{{item.customization.textToPrint}}</b>
+                </span>
+                
+            </p></div>
            
  </div>
-
+</div>
  <button (click)="showDetails = false">הזמן עכשיו</button>
 </div>
 
 <div *ngIf="!showDetails">
+  <button (click)="showDetails = true">חזרה לעגלת הקניות</button>
+  <!-- (ngSubmit)="onSubmit()" -->
+  <form [formGroup]="myForm" >
+  <h3>פרטים אישיים</h3>
+  
+  <div>
+    <label for="firstName">שם פרטי:</label>
+    <input id="firstName" type="text" formControlName="firstName" />
+    
+    <div *ngIf="myForm.get('firstName')?.invalid && myForm.get('firstName')?.touched">
+      <p style="color: red;">שם פרטי נדרש.</p>
+    </div>
+  </div>
 
-    <span>הייי </span>
-    <button (click)="order()">לקניה</button>
-    <button (click)="showDetails = true">חזרה לעגלת הקניות</button>
+  <div>
+    <label for="email">דוא"ל:</label>
+    <input id="email" type="email" formControlName="email" />
+    
+    <div *ngIf="myForm.get('email')?.hasError('required') && myForm.get('email')?.touched">
+      <p style="color: red;">כתובת דוא"ל נדרשת.</p>
+    </div>
+    
+    <div *ngIf="myForm.get('email')?.hasError('email') && myForm.get('email')?.touched">
+      <p style="color: red;">כתובת דוא"ל אינה בפורמט תקין.</p>
+    </div>
+  </div>
 
+  <div formGroupName="address">
+    <h4>כתובת</h4>
+    
+    <div>
+      <label for="city">עיר:</label>
+      <input id="city" type="text" formControlName="city" />
+    </div>
 
+    <div>
+      <label for="house_number">מספר בית:</label>
+      <input id="house_number" type="number" formControlName="house_number" />
+    </div>
+
+  </div>
+
+  <button type="submit" [disabled]="!myForm.valid">לקניה</button>
+</form>
 </div>
 
 
 
 
 
+    

@@ -1,32 +1,51 @@
 <div class="product-details-container">
-  
-  <!-- מצב טעינה -->
+    
   <div *ngIf="loading" class="loading">
     <p>⏳ טוען מוצר...</p>
   </div>
 
-  <!-- הצגת שגיאה -->
   <div *ngIf="error && !loading" class="error">
     <p>❌ {{ error }}</p>
     <a routerLink="/shopping">חזרה למוצרים</a>
   </div>
 
-  <!-- הצגת המוצר -->
   <div *ngIf="product && !loading" class="product-content">
     <h2>{{ product.name }}</h2>
     
-    <img 
-      [src]="'http://localhost:5183/images/' + product.imageUrl" 
-      [alt]="product.name"
-      class="product-image"
-    />
+    <div class="image-wrapper">
+        <img 
+            [src]="'http://localhost:5183/images/' + product.imageUrl" 
+            [alt]="product.name"
+            class="product-image"
+        />
+        
+        <div *ngIf="Caption" class="caption-overlay"  [style.color]="Color">
+            {{ Caption }}
+        </div>
+    </div>
     
     <div class="product-info">
       <p><b>מחיר:</b> {{ product.price }} ₪</p>
       <p><b>קטגוריה (ID):</b> {{ product.categoryId }}</p>
     </div>
 
-    <a routerLink="/shopping" class="back-link">← חזרה למוצרים</a>
+    <div *ngIf="!Customization">
+      <button (click)="Customization = true">התאמה אישית</button>
+      <button (click)="handleAddToCart()">הוסף לעגלה</button>
+    </div>
+
+    <div *ngIf="Customization">
+      <input 
+        type="text" 
+        [(ngModel)]="Caption" 
+        placeholder="הקלד טקסט אישי"/>
+        <label>בחר צבע כיתוב</label>
+        <input type="color"
+        [(ngModel)]="Color"  >
+        <button (click)="handleAddToCart()">הוסף לעגלה</button>
+    </div>
+    
+    <a [routerLink]="['/shopping']" class="back-link">← חזרה למוצרים</a>
   </div>
 
 </div>

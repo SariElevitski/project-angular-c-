@@ -1,14 +1,18 @@
 import { Component, OnInit, OnDestroy, ChangeDetectorRef } from '@angular/core'; // 👈 הוסף ChangeDetectorRef
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute,RouterModule } from '@angular/router';
 import { Service } from '../service';
 import { CommonModule } from '@angular/common';
 import { Subject, Subscription, takeUntil } from 'rxjs';
+import { FormsModule } from '@angular/forms'
+import {Customization} from '../models/customization'
+import { Product } from '../models/product';
+
 
 @Component({
   selector: 'app-product-details',
   templateUrl: './product-details.html',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,RouterModule,FormsModule],
   styleUrl: './product-details.css',
 })
 export class ProductDetails implements OnInit, OnDestroy {
@@ -18,9 +22,16 @@ export class ProductDetails implements OnInit, OnDestroy {
   private destroy$ = new Subject<void>();
   private currentRequestSub?: Subscription;
 
+//הצגה של קלט התאמה אישית או לא
+  Customization : boolean = false
+// המשתנה לקישור בין נתון לתצוגה - לכיתוב
+  Caption : String | null = null
+
+  public Color: string = '#000000'
+
   constructor(
     private route: ActivatedRoute, 
-    private service: Service,
+    private Service: Service,
     private cdr: ChangeDetectorRef // 👈 הוסף את זה
   ) {}
 
@@ -44,7 +55,7 @@ export class ProductDetails implements OnInit, OnDestroy {
     this.error = '';
 
 
-    this.service
+    this.Service
       .getProductById(id)
       .pipe(takeUntil(this.destroy$))
       .subscribe({
@@ -65,4 +76,40 @@ export class ProductDetails implements OnInit, OnDestroy {
     this.destroy$.next();
     this.destroy$.complete();
   }
+
+  handleAddToCart(): void {
+// 1. בדיקה: האם המשתמש נמצא במצב "התאמה אישית"?
+    // אם Customization = true, זה אומר שהמשתמש לחץ על הכפתור ופתח את אפשרויות העריכה.
+    const isCustomizedMode = this.Customization === true;
+
+    let itemToAdd: Product | (Product & { customization?: Customization });
+    
+    // 2. בדיקה: האם יש טקסט שהוזן? (אם יש טקסט, נניח שההתאמה בוצעה)
+    const textIsPresent = this.Caption && this.Caption.trim().length > 0;
+    
+    if (isCustomizedMode && textIsPresent) {
+      // 3. יצירת אובייקט Customization חדש
+      const customizationData: Customization = {
+        id: Date.now(), // ⬅️ ID ייחודי זמני
+        productId: this.product.id,
+        textToPrint: this.Caption!.trim(), // ⬅️ ! מכיוון שבדקנו ש-textIsPresent הוא true
+        colorText: this.Color,
+        fontName: 'Arial', // ⬅️ דוגמה לפונט ברירת מחדל
+        sizeText: 14, // ⬅️ דוגמה לגודל ברירת מחדל
+      };
+
+      // 4. יצירת פריט עגלה מורכב (מוצר + התאמה אישית)
+      itemToAdd = {
+        ...this.product,
+        customization: customizationData,
+      };
+
+    } else {
+      // 5. הוספת המוצר הרגיל (ללא customization)
+      itemToAdd = this.product;        
+    }
+
+    this.Service.addToCart(itemToAdd);
+    }
+
 }

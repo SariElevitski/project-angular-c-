@@ -24,6 +24,10 @@ builder.Services.AddCors(options =>
 builder.Services.AddScoped(typeof(IDal.Iproduct), typeof(DalSql.ProductDal));
 builder.Services.AddScoped(typeof(IBll.IproductBll), typeof(Bll.productBll));
 
+builder.Services.AddScoped(typeof(IDal.Icustomer), typeof(DalSql.CustomerDal));
+builder.Services.AddScoped(typeof(IBll.ICustomerBll), typeof(Bll.CustomerBll));
+
+
 builder.Services.AddDbContext<DalSql.models.PixoContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("MyComputer")));
 

@@ -1,4 +1,5 @@
 ﻿using Dto;
+using IBll;
 using IDal;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Bll
 {
-    public class CustomerBll
+    public class CustomerBll : ICustomerBll
     {
 
         private readonly Icustomer customerD;

@@ -3,15 +3,23 @@ import { HttpClient, HttpParams, HttpErrorResponse } from '@angular/common/http'
 import { Product } from './models/product';
 import { Observable,throwError, of} from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
+import { Customization } from './models/customization';
 
 export interface CustomerDto {
-  id?: number;
-  fullName: string;
-  email: string;
-  birthday?: string; // ISO string or yyyy-MM-dd
-  phone?: string;
-  password?: string;
+  Id?: number;
+  FullName: string;
+  Email: string;
+  Birthday?: Date | null; 
+  Phone?: string;
+  
 }
+
+
+export interface CartItem extends Product {
+    customization?: Customization; // ⬅️ המאפיין האופציונלי של התאמה אישית
+    // אופציונלי: ID ייחודי לכל פריט בעגלה
+    cartItemId: string;// חשוב להוספת פריט פעמיים
+    }
 
 @Injectable({
   providedIn: 'root',
@@ -83,13 +91,19 @@ export class Service {
   }
 
 
-  addToCart(product: Product): void {
+  addToCart(item: Product | CartItem): void {
 
     const storageKey = 'cartItems';
       const raw = localStorage.getItem(storageKey) || '[]';
-      const cart: Product[] = JSON.parse(raw);
-      cart.push(product);
-      localStorage.setItem(storageKey, JSON.stringify(cart));
+      const cart: CartItem[] = JSON.parse(raw);
+      const uniqueId = Date.now().toString() + Math.floor(Math.random() * 1000).toString();
+
+      const cartItem: CartItem = {
+        ...item as CartItem,
+         cartItemId: uniqueId    
+         };
+       cart.push(cartItem);
+       localStorage.setItem(storageKey, JSON.stringify(cart));
    
   }
 
@@ -104,7 +118,7 @@ export class Service {
 // }
 
 
-  getCart(): Product[] {
+  getCart(): CartItem[] {
   if (typeof window === 'undefined') {
     return []; // SSR - אין localStorage
   }

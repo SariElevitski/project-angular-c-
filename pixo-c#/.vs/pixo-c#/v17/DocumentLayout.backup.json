@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dalsql\\models\\pixocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|solutionrelative:dalsql\\models\\pixocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAB19BEC-0F99-4B20-8EBD-55E0AA4597E5}|Dto\\Dto.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAB19BEC-0F99-4B20-8EBD-55E0AA4597E5}|Dto\\Dto.csproj|solutionrelative:dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\dalsql\\customerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAD479C2-FB44-4FA2-9AE1-4FA4771278CE}|DalSql\\DalSql.csproj|solutionrelative:dalsql\\customerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48227AC3-2434-48D4-B5BB-76A561853039}|API\\API.csproj|solutionrelative:api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1926A802-FA33-4087-BA43-7D3B568C9454}|Bll\\Bll.csproj|c:\\users\\sarie\\onedrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularandcsharp\\pixo-c#\\bll\\customerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,75 +27,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T17:06:46.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PixoContext.cs",
-              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\models\\PixoContext.cs",
-              "RelativeDocumentMoniker": "DalSql\\models\\PixoContext.cs",
-              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\models\\PixoContext.cs",
-              "RelativeToolTip": "DalSql\\models\\PixoContext.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAA+wCwAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T16:48:47.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\API\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\API\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "API\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T09:02:27.052Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "CustomerBll.cs",
               "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Bll\\CustomerBll.cs",
               "RelativeDocumentMoniker": "Bll\\CustomerBll.cs",
               "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Bll\\CustomerBll.cs",
               "RelativeToolTip": "Bll\\CustomerBll.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:52:09.007Z"
+              "WhenOpened": "2025-11-30T19:24:24.145Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerDal.cs",
-              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\CustomerDal.cs",
-              "RelativeDocumentMoniker": "DalSql\\CustomerDal.cs",
-              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\CustomerDal.cs",
-              "RelativeToolTip": "DalSql\\CustomerDal.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:18:31.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerDto.cs",
-              "DocumentMoniker": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Dto\\CustomerDto.cs",
-              "RelativeDocumentMoniker": "Dto\\CustomerDto.cs",
-              "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\Dto\\CustomerDto.cs",
-              "RelativeToolTip": "Dto\\CustomerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T07:55:07.349Z"
+              "WhenOpened": "2025-11-29T17:06:46.682Z",
+              "EditorCaption": ""
             }
           ]
         }
