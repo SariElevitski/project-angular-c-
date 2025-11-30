@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Params, RouterModule } from '@angular/router';
 
 
+
 @Component({
   selector: 'app-products',
   standalone: true, // 👈 הוסף את זה בחזרה!
@@ -28,8 +29,9 @@ export class Products implements OnInit {
   private priceTerms = new Subject<{min: number | null, max: number | null}>(); // 👈 הוסף () כאן!
 
 
+
   //הזרקת שירותים ROUTE
-  constructor(private productService: Service, private route: ActivatedRoute) {}
+  constructor(private Service: Service, private route: ActivatedRoute) {}
   
   ngOnInit(): void {
     // 🔗 1. יצירת זרם מונח החיפוש (מטפל בקלט המשתמש)
@@ -71,7 +73,7 @@ export class Products implements OnInit {
     ] as const).pipe(
       // מפעיל קריאת שרת בכל פעם שאחד הערכים משתנה
       switchMap(([term, categoryId, price]) =>
-        this.productService.getProducts(term, categoryId, price.min, price.max)
+        this.Service.getProducts(term, categoryId, price.min, price.max)
       )
     );
   }
@@ -90,4 +92,10 @@ export class Products implements OnInit {
     
     this.priceTerms.next({ min: min, max: max });
   }
+
+  
+  addToCart(product: Product): void {
+    this.Service.addToCart(product);
+  }
+ 
 }

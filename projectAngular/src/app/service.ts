@@ -82,5 +82,38 @@ export class Service {
     return throwError(() => new Error(msg));
   }
 
-  
+
+  addToCart(product: Product): void {
+
+    const storageKey = 'cartItems';
+      const raw = localStorage.getItem(storageKey) || '[]';
+      const cart: Product[] = JSON.parse(raw);
+      cart.push(product);
+      localStorage.setItem(storageKey, JSON.stringify(cart));
+   
+  }
+
+//   addToCart(product: Product): void {
+//   if (typeof window === 'undefined') return;
+
+//   const raw = localStorage.getItem('cartItems') || '[]';
+//   const cart: Product[] = JSON.parse(raw);
+
+//   cart.push(product);
+//   localStorage.setItem('cartItems', JSON.stringify(cart));
+// }
+
+
+  getCart(): Product[] {
+  if (typeof window === 'undefined') {
+    return []; // SSR - אין localStorage
+  }
+
+  const raw = localStorage.getItem('cartItems') || '[]';
+  return JSON.parse(raw);
+}
+
+
+
+
 }

@@ -50,8 +50,7 @@
               "RelativeToolTip": "API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T17:06:46.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T17:06:46.682Z"
             },
             {
               "$type": "Document",
@@ -61,7 +60,7 @@
               "RelativeDocumentMoniker": "DalSql\\models\\PixoContext.cs",
               "ToolTip": "C:\\Users\\sarie\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\angularAndCSharp\\pixo-c#\\DalSql\\models\\PixoContext.cs",
               "RelativeToolTip": "DalSql\\models\\PixoContext.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAABFwCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA+wCwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-29T16:48:47.258Z",
               "EditorCaption": ""
@@ -76,8 +75,7 @@
               "RelativeToolTip": "API\\Controllers\\CustomerController.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T09:02:27.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T09:02:27.052Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Bll\\CustomerBll.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:52:09.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T08:52:09.007Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "DalSql\\CustomerDal.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:18:31.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T08:18:31.442Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "Dto\\CustomerDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T07:55:07.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T07:55:07.349Z"
             }
           ]
         }

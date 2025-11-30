@@ -150,3 +150,22 @@ UPDATE Products
 SET ImageUrl = '/images/shirt1.jpg'
 WHERE Id = 1;
 
+
+ALTER TABLE customers
+ALTER COLUMN Email NVARCHAR(200) NOT NULL
+
+
+ALTER TABLE customers
+DROP CONSTRAINT UQ__customer__A9D1053453C1B422;
+
+
+SELECT 
+    name AS ConstraintName
+FROM 
+    sys.objects 
+WHERE 
+    type = 'UQ' -- אילוץ ייחודי (Unique)
+    AND parent_object_id = OBJECT_ID('customers');
+
+	ALTER TABLE Customers
+ADD CONSTRAINT UQ_Customers_Email UNIQUE (Email);

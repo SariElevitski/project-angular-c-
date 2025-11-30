@@ -1,1 +1,30 @@
-<p>cart works!</p>
+ <div *ngIf="showDetails">
+<div *ngIf="cartItems.length === 0">
+  הסל ריק
+</div>
+
+<div *ngFor="let item of cartItems" class="cart-item"> 
+<div class="image-container">
+  <img [src]="'http://localhost:5183/images/' +item.imageUrl" width="80">
+  <span>{{ item.name }}</span>
+  <span>{{ item.price }} ₪</span>
+</div>
+           
+ </div>
+
+ <button (click)="showDetails = false">הזמן עכשיו</button>
+</div>
+
+<div *ngIf="!showDetails">
+
+    <span>הייי </span>
+    <button (click)="order()">לקניה</button>
+    <button (click)="showDetails = true">חזרה לעגלת הקניות</button>
+
+
+</div>
+
+
+
+
+
