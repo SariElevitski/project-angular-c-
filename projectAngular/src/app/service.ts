@@ -9,9 +9,16 @@ export interface CustomerDto {
   Id?: number;
   FullName: string;
   Email: string;
-  Birthday?: Date | null; 
+  Birthday?: string | null; 
   Phone?: string;
   
+}
+
+export interface CustomerCreateDto {
+  FullName: string;
+  Email: string;
+  Birthday?: string | null; // משתמשים ב-string לאחר ההמרה
+  Phone?: string;
 }
 
 
@@ -26,7 +33,7 @@ export interface CartItem extends Product {
 })
 export class Service {
   private apiUrlProduct = 'http://localhost:5183/api/product';
-  private apiUrlCustomer = 'http://localhost:5183/api/customers';
+  private apiUrlCustomer = 'http://localhost:5183/api/customer';
 
   constructor(private http: HttpClient) {}
 
@@ -66,10 +73,13 @@ export class Service {
       // .pipe(tap((data) => console.log('📦 Data from server:', data)));
   }
 
-   signup(dto: CustomerDto): Observable<CustomerDto> {
-    return this.http.post<CustomerDto>(`${this.apiUrlCustomer}/signup`, dto)
-      .pipe(catchError(this.handleError));
-   }
+   signup(dto: CustomerDto): Observable<string> {
+    // Backend returns a plain text message (e.g. "המשתמש נוצר בהצלחה").
+    // Request the response as text to avoid JSON parse errors in the client.
+    return this.http.post(`${this.apiUrlCustomer}/register`, dto, { responseType: 'text' }).pipe(
+      catchError(this.handleError)
+    );
+  }
 
    emailExists(email: string): Observable<boolean> {
     const params = new HttpParams().set('email', email);
